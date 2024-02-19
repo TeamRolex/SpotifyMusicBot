@@ -6,7 +6,7 @@
     "python3",
     "telegram",
     "bot",
-    "DAXX",
+    "Spitify",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -38,7 +38,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
+        "description": "A Pyrogram v2 String Session from @EsproStringBot on Telegram.",
         "value": "",
         "required": true
       },
