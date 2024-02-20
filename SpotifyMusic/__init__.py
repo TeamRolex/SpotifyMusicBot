@@ -1,4 +1,4 @@
-from SpotifyMusic.core.bot import Spotify
+from SpotifyMusic.core.bot import RIT
 from SpotifyMusic.core.dir import dirr
 from SpotifyMusic.core.git import git
 from SpotifyMusic.core.userbot import Userbot
