@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SpotifyMusic import LOGGER, app, userbot
-from SpotifyMusic.core.call import DAXX
+from SpotifyMusic.core.call import Spotify
 from SpotifyMusic.misc import sudo
 from SpotifyMusic.plugins import ALL_MODULES
 from SpotifyMusic.utils.database import get_banned_users, get_gbanned
@@ -38,9 +38,9 @@ async def init():
         importlib.import_module("SpotifyMusic.plugins" + all_module)
     LOGGER("SpotifyMusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await DAXX.start()
+    await Spotify.start()
     try:
-        await DAXX.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Spotify.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("SpotifyMusic").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗗𝗔𝗫𝗫 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
@@ -48,7 +48,7 @@ async def init():
         exit()
     except:
         pass
-    await DAXX.decorators()
+    await Spotify.decorators()
     LOGGER("SpotifyMusic").info(
         "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗗𝗔𝗫𝗫☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )

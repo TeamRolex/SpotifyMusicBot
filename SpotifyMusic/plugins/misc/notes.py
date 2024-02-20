@@ -1,7 +1,7 @@
 from SpotifyMusic import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from SpotifyMusic.utils.daxx_ban import admin_filter
+from SpotifyMusic.utils.Spotify_ban import admin_filter
 from SpotifyMusic.mongo.notesdb import *
 from SpotifyMusic.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from SpotifyMusic.utils.yumidb import user_admin

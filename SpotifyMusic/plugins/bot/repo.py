@@ -33,38 +33,38 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/HEROKUFREECC"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/iam_daxx"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/iam_Spotify"),
           ],
                [
                 InlineKeyboardButton("𝗟𝗜𝗩𝗘 𝗖𝗖", url="https://t.me/ALLTYPECC"),
 
 ],
 [
-              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://github.com/DAXXTEAM/DAXXBANALL"),
-              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/DAXXTEAM/SpotifyMusic"),
+              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://github.com/SpotifyTEAM/SpotifyBANALL"),
+              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/SpotifyTEAM/SpotifyMusic"),
               ],
               [
-              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://github.com/DAXXTEAM/YumikooRobot"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/DAXXCHATBOT"),
+              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://github.com/SpotifyTEAM/YumikooRobot"),
+InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/SpotifyTEAM/SpotifyCHATBOT"),
 ],
 [
-InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/DAXXSTRINGBOT"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧𝗚𝗣𝗧", url=f"https://github.com/DAXXTEAM/DAXXCHATGPT"),
+InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://github.com/SpotifyTEAM/SpotifySTRINGBOT"),
+InlineKeyboardButton("𝗖𝗛𝗔𝗧𝗚𝗣𝗧", url=f"https://github.com/SpotifyTEAM/SpotifyCHATGPT"),
 ],
 [
-              InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://github.com/DAXXTEAM/Kaali-Linux"),
-              InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘︎", url=f"https://github.com/DAXXTEAM/DAXXMOVIEBOT"),
+              InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://github.com/SpotifyTEAM/Kaali-Linux"),
+              InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘︎", url=f"https://github.com/SpotifyTEAM/SpotifyMOVIEBOT"),
               ],
               [
-              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗛𝗔𝗖𝗞︎", url=f"https://github.com/DAXXTEAM/DAXXSTRINGHACK"),
-InlineKeyboardButton("𝗜𝗗 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/DAXXIDCHAT"),
+              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚 𝗛𝗔𝗖𝗞︎", url=f"https://github.com/SpotifyTEAM/SpotifySTRINGHACK"),
+InlineKeyboardButton("𝗜𝗗 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://github.com/SpotifyTEAM/SpotifyIDCHAT"),
 ],
 [
-InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/DAXXUSERBOT"),
-InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/SEARCH_BOT"),
+InlineKeyboardButton("𝗨𝗦𝗘𝗥𝗕𝗢𝗧", url=f"https://github.com/SpotifyTEAM/SpotifyUSERBOT"),
+InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛𝗕𝗢𝗧", url=f"https://github.com/SpotifyTEAM/SEARCH_BOT"),
 ],
 [
-InlineKeyboardButton("𝗖𝗖 𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/CC_BOT"),
+InlineKeyboardButton("𝗖𝗖 𝗕𝗢𝗧", url=f"https://github.com/SpotifyTEAM/CC_BOT"),
 
         ]]
     
@@ -84,7 +84,7 @@ InlineKeyboardButton("𝗖𝗖 𝗕𝗢𝗧", url=f"https://github.com/DAXXTEAM/
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://api.github.com/repos/DAXXTEAM/SpotifyMusic/contributors")
+        response = await client.get("https://api.github.com/repos/SpotifyTEAM/SpotifyMusic/contributors")
     
     if response.status_code == 200:
         users = response.json()
@@ -94,7 +94,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/DAXXTEAM/SpotifyMusic) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/HEROKUFREECC)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/SpotifyTEAM/SpotifyMusic) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/HEROKUFREECC)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""

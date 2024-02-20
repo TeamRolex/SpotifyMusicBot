@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SpotifyMusic.utils.daxx_font import Fonts
+from SpotifyMusic.utils.Spotify_font import Fonts
 from SpotifyMusic import app
 
 @app.on_message(filters.command(["font", "fonts"]))

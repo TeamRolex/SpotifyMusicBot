@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from SpotifyMusic import app
-from SpotifyMusic.core.call import DAXX, autoend
+from SpotifyMusic.core.call import Spotify, autoend
 from SpotifyMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -64,7 +64,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await DAXX.stop_stream(chat_id)
+                    await Spotify.stop_stream(chat_id)
                 except:
                     continue
                 try:

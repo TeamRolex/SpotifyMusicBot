@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from config import *
 from SpotifyMusic import app
-from SpotifyMusic.core.call import DAXX
+from SpotifyMusic.core.call import Spotify
 from SpotifyMusic.utils import bot_sys_stats
 from SpotifyMusic.utils.decorators.language import language
 from SpotifyMusic.utils.inline import supp_markup
@@ -20,7 +20,7 @@ async def ping_com(client, message: Message, _):
         video="https://graph.org/file/5690109178f081adf464d.mp4",
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await DAXX.ping()
+    pytgping = await Spotify.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(

@@ -4,7 +4,7 @@ from SpotifyMusic import app, userbot
 from SpotifyMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from SpotifyMusic.utils.daxx_ban import admin_filter
+from SpotifyMusic.utils.Spotify_ban import admin_filter
 
 
 

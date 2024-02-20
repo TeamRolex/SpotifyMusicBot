@@ -1,7 +1,7 @@
 import re
 from SpotifyMusic import app
 from config import BOT_USERNAME
-from SpotifyMusic.utils.daxx_ban import admin_filter
+from SpotifyMusic.utils.Spotify_ban import admin_filter
 from SpotifyMusic.mongo.filtersdb import *
 from SpotifyMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from SpotifyMusic.utils.yumidb import user_admin
