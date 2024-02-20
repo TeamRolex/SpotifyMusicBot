@@ -60,3 +60,5 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </p>
 
 <h2 align="center"> ### Himanshu Boss ### & Ritik Raj </h2>
+
+### Es Repo Ka Karta Dharta [𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐](https://t.me/iam_daxx) ###
